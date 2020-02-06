@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String hello(Model model){
-        model.addAttribute("mensagem", "Bem vindo! Aplicação simples feita com base no framework SpringBoot.");
+        model.addAttribute("mensagem", " Teste git Bem vindo! Aplicação simples feita com base no framework SpringBoot.");
         return "index";
     }
 

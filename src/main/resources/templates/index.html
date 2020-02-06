@@ -8,7 +8,7 @@
 </head>
 <body>
     <div th:replace="fragmentos/fragmentos :: header"></div>
-    <span th:text="'Mensagem do servidor: ' + ${mensagem}"></span>
+    <span th:text="${mensagem}"></span>
     <div th:replace="fragmentos/fragmentos :: footer"></div>
 </body>
 </html>
